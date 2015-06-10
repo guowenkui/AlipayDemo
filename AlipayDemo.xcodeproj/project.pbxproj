@@ -14,6 +14,26 @@
 		C77509971B117B2D00452184 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C77509961B117B2D00452184 /* Images.xcassets */; };
 		C775099A1B117B2D00452184 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C77509981B117B2D00452184 /* LaunchScreen.xib */; };
 		C77509A61B117B2D00452184 /* AlipayDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C77509A51B117B2D00452184 /* AlipayDemoTests.m */; };
+		C77509C41B117BA100452184 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C77509B11B117BA100452184 /* AFHTTPRequestOperation.m */; };
+		C77509C51B117BA100452184 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C77509B31B117BA100452184 /* AFHTTPRequestOperationManager.m */; };
+		C77509C61B117BA100452184 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C77509B51B117BA100452184 /* AFHTTPSessionManager.m */; };
+		C77509C71B117BA100452184 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C77509B81B117BA100452184 /* AFNetworkReachabilityManager.m */; };
+		C77509C81B117BA100452184 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = C77509BA1B117BA100452184 /* AFSecurityPolicy.m */; };
+		C77509C91B117BA100452184 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C77509BC1B117BA100452184 /* AFURLConnectionOperation.m */; };
+		C77509CA1B117BA100452184 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C77509BE1B117BA100452184 /* AFURLRequestSerialization.m */; };
+		C77509CB1B117BA100452184 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C77509C01B117BA100452184 /* AFURLResponseSerialization.m */; };
+		C77509CC1B117BA100452184 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C77509C21B117BA100452184 /* AFURLSessionManager.m */; };
+		C77509D41B117C0B00452184 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77509D01B117C0B00452184 /* AlipaySDK.framework */; };
+		C77509D71B117C4700452184 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77509D61B117C4700452184 /* SystemConfiguration.framework */; };
+		C77509D91B117C4F00452184 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77509D81B117C4F00452184 /* QuartzCore.framework */; };
+		C77509DB1B117C5F00452184 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C77509DA1B117C5F00452184 /* libz.dylib */; };
+		C77509DE1B117C8800452184 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77509DD1B117C8800452184 /* CoreText.framework */; };
+		C77509E01B117CD900452184 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C77509DF1B117CD900452184 /* AlipaySDK.bundle */; };
+		C77509E31B117CF500452184 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = C77509E21B117CF500452184 /* Order.m */; };
+		C77509E51B117D1C00452184 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77509E41B117D1C00452184 /* CoreTelephony.framework */; };
+		C77509E71B117D2500452184 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77509E61B117D2500452184 /* Foundation.framework */; };
+		C77509E91B117D3100452184 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77509E81B117D3100452184 /* CoreGraphics.framework */; };
+		C77509EB1B117D3E00452184 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77509EA1B117D3E00452184 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +60,37 @@
 		C775099F1B117B2D00452184 /* AlipayDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlipayDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C77509A41B117B2D00452184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C77509A51B117B2D00452184 /* AlipayDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlipayDemoTests.m; sourceTree = "<group>"; };
+		C77509B01B117BA100452184 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		C77509B11B117BA100452184 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		C77509B21B117BA100452184 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		C77509B31B117BA100452184 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		C77509B41B117BA100452184 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		C77509B51B117BA100452184 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		C77509B61B117BA100452184 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		C77509B71B117BA100452184 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		C77509B81B117BA100452184 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		C77509B91B117BA100452184 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		C77509BA1B117BA100452184 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		C77509BB1B117BA100452184 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		C77509BC1B117BA100452184 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		C77509BD1B117BA100452184 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		C77509BE1B117BA100452184 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		C77509BF1B117BA100452184 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		C77509C01B117BA100452184 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		C77509C11B117BA100452184 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		C77509C21B117BA100452184 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		C77509D01B117C0B00452184 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = ../AlipaySDK.framework; sourceTree = "<group>"; };
+		C77509D61B117C4700452184 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C77509D81B117C4F00452184 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C77509DA1B117C5F00452184 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		C77509DD1B117C8800452184 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		C77509DF1B117CD900452184 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		C77509E11B117CF500452184 /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
+		C77509E21B117CF500452184 /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
+		C77509E41B117D1C00452184 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		C77509E61B117D2500452184 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C77509E81B117D3100452184 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C77509EA1B117D3E00452184 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +98,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C77509EB1B117D3E00452184 /* UIKit.framework in Frameworks */,
+				C77509E91B117D3100452184 /* CoreGraphics.framework in Frameworks */,
+				C77509E71B117D2500452184 /* Foundation.framework in Frameworks */,
+				C77509E51B117D1C00452184 /* CoreTelephony.framework in Frameworks */,
+				C77509DE1B117C8800452184 /* CoreText.framework in Frameworks */,
+				C77509DB1B117C5F00452184 /* libz.dylib in Frameworks */,
+				C77509D91B117C4F00452184 /* QuartzCore.framework in Frameworks */,
+				C77509D71B117C4700452184 /* SystemConfiguration.framework in Frameworks */,
+				C77509D41B117C0B00452184 /* AlipaySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,8 +123,13 @@
 		C775097D1B117B2D00452184 = {
 			isa = PBXGroup;
 			children = (
+				C77509E11B117CF500452184 /* Order.h */,
+				C77509E21B117CF500452184 /* Order.m */,
+				C77509DF1B117CD900452184 /* AlipaySDK.bundle */,
+				C77509AF1B117BA100452184 /* AFNetworking */,
 				C77509881B117B2D00452184 /* AlipayDemo */,
 				C77509A21B117B2D00452184 /* AlipayDemoTests */,
+				C77509DC1B117C6700452184 /* Frameworks */,
 				C77509871B117B2D00452184 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -117,6 +182,57 @@
 				C77509A41B117B2D00452184 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C77509AF1B117BA100452184 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				C77509B01B117BA100452184 /* AFHTTPRequestOperation.h */,
+				C77509B11B117BA100452184 /* AFHTTPRequestOperation.m */,
+				C77509B21B117BA100452184 /* AFHTTPRequestOperationManager.h */,
+				C77509B31B117BA100452184 /* AFHTTPRequestOperationManager.m */,
+				C77509B41B117BA100452184 /* AFHTTPSessionManager.h */,
+				C77509B51B117BA100452184 /* AFHTTPSessionManager.m */,
+				C77509B61B117BA100452184 /* AFNetworking.h */,
+				C77509B71B117BA100452184 /* AFNetworkReachabilityManager.h */,
+				C77509B81B117BA100452184 /* AFNetworkReachabilityManager.m */,
+				C77509B91B117BA100452184 /* AFSecurityPolicy.h */,
+				C77509BA1B117BA100452184 /* AFSecurityPolicy.m */,
+				C77509BB1B117BA100452184 /* AFURLConnectionOperation.h */,
+				C77509BC1B117BA100452184 /* AFURLConnectionOperation.m */,
+				C77509BD1B117BA100452184 /* AFURLRequestSerialization.h */,
+				C77509BE1B117BA100452184 /* AFURLRequestSerialization.m */,
+				C77509BF1B117BA100452184 /* AFURLResponseSerialization.h */,
+				C77509C01B117BA100452184 /* AFURLResponseSerialization.m */,
+				C77509C11B117BA100452184 /* AFURLSessionManager.h */,
+				C77509C21B117BA100452184 /* AFURLSessionManager.m */,
+				C77509C31B117BA100452184 /* SDWebImage */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		C77509C31B117BA100452184 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		C77509DC1B117C6700452184 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C77509EA1B117D3E00452184 /* UIKit.framework */,
+				C77509E81B117D3100452184 /* CoreGraphics.framework */,
+				C77509E61B117D2500452184 /* Foundation.framework */,
+				C77509E41B117D1C00452184 /* CoreTelephony.framework */,
+				C77509DA1B117C5F00452184 /* libz.dylib */,
+				C77509D01B117C0B00452184 /* AlipaySDK.framework */,
+				C77509D61B117C4700452184 /* SystemConfiguration.framework */,
+				C77509D81B117C4F00452184 /* QuartzCore.framework */,
+				C77509DD1B117C8800452184 /* CoreText.framework */,
+			);
+			name = Frameworks;
+			path = AlipayDemoTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +317,7 @@
 			files = (
 				C77509951B117B2D00452184 /* Main.storyboard in Resources */,
 				C775099A1B117B2D00452184 /* LaunchScreen.xib in Resources */,
+				C77509E01B117CD900452184 /* AlipaySDK.bundle in Resources */,
 				C77509971B117B2D00452184 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,7 +336,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C77509C41B117BA100452184 /* AFHTTPRequestOperation.m in Sources */,
 				C77509921B117B2D00452184 /* ViewController.m in Sources */,
+				C77509C51B117BA100452184 /* AFHTTPRequestOperationManager.m in Sources */,
+				C77509C71B117BA100452184 /* AFNetworkReachabilityManager.m in Sources */,
+				C77509CB1B117BA100452184 /* AFURLResponseSerialization.m in Sources */,
+				C77509C91B117BA100452184 /* AFURLConnectionOperation.m in Sources */,
+				C77509C81B117BA100452184 /* AFSecurityPolicy.m in Sources */,
+				C77509C61B117BA100452184 /* AFHTTPSessionManager.m in Sources */,
+				C77509E31B117CF500452184 /* Order.m in Sources */,
+				C77509CA1B117BA100452184 /* AFURLRequestSerialization.m in Sources */,
+				C77509CC1B117BA100452184 /* AFURLSessionManager.m in Sources */,
 				C775098F1B117B2D00452184 /* AppDelegate.m in Sources */,
 				C775098C1B117B2D00452184 /* main.m in Sources */,
 			);
@@ -347,7 +474,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = AlipayDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -357,7 +489,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = AlipayDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

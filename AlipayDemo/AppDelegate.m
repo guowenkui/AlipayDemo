@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import <AlipaySDK/AlipaySDK.h>
 @interface AppDelegate ()
 
 @end
@@ -41,5 +41,21 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+//- (BOOL)application:(UIApplication *)application
+//            openURL:(NSURL *)url
+//  sourceApplication:(NSString *)sourceApplication
+//         annotation:(id)annotation
+//{
+//    //跳转支付宝钱包进行支付，需要将支付宝钱包的支付结果回传给SDK
+//    if ([url.host isEqualToString:@"safepay"]) {
+//        [[AlipaySDK defaultService]
+//         processOrderWithPaymentResult:url standbyCallback:^(NSDictionary *resultDic){
+//             
+//         }];
+//    }
+//    return YES;
+//}
+
 
 @end
